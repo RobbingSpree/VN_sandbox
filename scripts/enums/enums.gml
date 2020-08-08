@@ -1,6 +1,7 @@
 enum actor
 {
 	no_one,
+	me,
 	barry,
 	debug,
 	julie,

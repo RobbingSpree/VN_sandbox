@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "aed4a9cf-2c4b-4514-a724-69fbf546fdd9",
+            "Value": {
+                "id": "6ff22cb0-6b85-4380-918c-543f492f7503",
+                "resourcePath": "objects\\storyline\\storyline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b558e81a-0c6e-4c23-aa04-e67f00119ca1",
             "Value": {
                 "id": "cba5ea92-9cde-41a9-8313-f0a46e6ae14c",
