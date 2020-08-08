@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "698670b8-6ecf-44cd-8fc9-59ca0b0ac64e",
+            "Value": {
+                "id": "0b683c18-27cc-4de2-83ad-20e1ad62db34",
+                "resourcePath": "sprites\\sprite_female_dark_hair_Neu01\\sprite_female_dark_hair_Neu01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6d35297c-96eb-4cc8-b763-7e3ce1035121",
             "Value": {
                 "id": "9f7274b7-9223-43c4-8d44-7d20e150ae1b",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "858143ce-adc6-4a77-b9be-ab6855b50c98",
+            "Value": {
+                "id": "f96265b4-6ca5-464d-87c6-2dea08af6413",
+                "resourcePath": "sprites\\Sprite_F_PinkH_Professional_Neutral02\\Sprite_F_PinkH_Professional_Neutral02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "61aaefef-b96d-4292-b18d-9925883982ea",
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "aec083cd-bcf7-4cf3-902c-fa7807d0e80d",
+            "Value": {
+                "id": "f068a0ad-3050-460f-8d94-98bb626fc2a2",
+                "resourcePath": "sprites\\famele_base\\famele_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aed4a9cf-2c4b-4514-a724-69fbf546fdd9",
             "Value": {
                 "id": "6ff22cb0-6b85-4380-918c-543f492f7503",
@@ -255,11 +279,35 @@
             }
         },
         {
+            "Key": "b3e3cf0f-aeb4-46b3-8a1e-3140a457def6",
+            "Value": {
+                "id": "8d0d6104-f39d-45ce-8b27-607e8537fe32",
+                "resourcePath": "sprites\\Sprite_Male_Dark_Hair_Con01\\Sprite_Male_Dark_Hair_Con01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b558e81a-0c6e-4c23-aa04-e67f00119ca1",
             "Value": {
                 "id": "cba5ea92-9cde-41a9-8313-f0a46e6ae14c",
                 "resourcePath": "views\\b558e81a-0c6e-4c23-aa04-e67f00119ca1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9a3a987-8c7a-4bd4-b2cf-b98ae2d55659",
+            "Value": {
+                "id": "6155fe05-bae2-4aa2-a194-61a8f9d5f83f",
+                "resourcePath": "sprites\\female_clothes\\female_clothes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc08f73b-5fc9-4c51-b832-37b116e5311b",
+            "Value": {
+                "id": "be79cd1f-0383-4ee9-813f-14897b3691c6",
+                "resourcePath": "sprites\\A1_magic_pleased01\\A1_magic_pleased01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -300,6 +348,14 @@
                 "id": "47867d36-6885-418a-94ff-1795edc9a80b",
                 "resourcePath": "views\\d649680f-5f44-4e06-a119-59016bf4d341.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2bc64db-5fc2-4f58-9596-1a4835afc369",
+            "Value": {
+                "id": "b464a619-f91f-4636-886c-e5d80aff2913",
+                "resourcePath": "sprites\\Sprite_Male_Beauty_Spot_Blond_Smi01\\Sprite_Male_Beauty_Spot_Blond_Smi01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
