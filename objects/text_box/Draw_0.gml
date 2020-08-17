@@ -47,6 +47,17 @@ if str != "" || instant
 			i++
 			i++
 		}
+		//check for punctuation
+		if string_char_at(str,i) == ","
+		{
+			pause=true;
+			alarm(0)=15;
+		}
+		if string_char_at(str,i) == "." || string_char_at(str,i) == "?" || string_char_at(str,i) == "!"
+		{
+			pause=true;
+			alarm(0)=30;
+		}
 	
 		//goto next line
 		var length =0;

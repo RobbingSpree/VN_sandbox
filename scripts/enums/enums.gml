@@ -14,6 +14,7 @@ enum loc
 	bedroom,
 	kat_room,
 	julie_room,
+	guest_room,
 	lounge_room,
 	kitchen,
 	bathroom,

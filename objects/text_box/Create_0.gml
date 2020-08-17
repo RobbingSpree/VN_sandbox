@@ -17,6 +17,7 @@ cutoff = 0; //characters beteen current character and end of line
 timer = 0; //time in frames until next character is displayed
 instant = true; //flag for if the timer needs to be skipped and the whole string is displayed at once
 box_wid = x2-x1 - margin*2; //maths placeholder to make other code look nice
+pause = false;
 
 //dialouge UI variables
 global.scene = loc.bedroom; //initialization of current scene location
