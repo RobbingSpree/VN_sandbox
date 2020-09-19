@@ -1,0 +1,129 @@
+character proifiles
+
+Name: Barry
+Role: Neighbor
+pronoun: he/him
+Body type: Muscly Dad Bod
+Likes: Potaotes, Grills, Liqurish
+Dislikes: MIDWTF, Pool Parties, Lack of someone to dote on
+Hobbies: Building furniture, slow cooking meats, weather tracking
+history: got a serious bailout after a workplace accident and now lives in his parent's old home living an early retierment
+hugs: gives bear hugs
+
+Name: Debug
+Role: Neighbor
+pronoun: they, them
+Body Type: Cat burgler
+Likes: Programmer socks, the dark, efficient exercsize
+Dislikes: gender norms, comments about their height, house chores
+hobbies: hacking, mixing energy drinks, gymnastics
+history: Is paid by the large firms to stress test new enviroments after he kept reporting exploits
+hugs: likes being pet
+
+Name: Julie
+Role: Mom
+Pronoun: She/her
+body type: Triangle
+likes: gardening, painting, warm hugs
+dislikes: messes, disorder caused by others, an empty fridge
+hobbies: growing vegetables,
+history: Mother of two, now her kids are all grown up she's looking at finding herself again
+hugs: gives long affectionate hugs
+
+Name: Kat
+Role: Sibling
+Pronoun: She/her
+body type: apple
+likes: order, others doing things for her, attention
+dislikes: unrewarded effort, dishonesty, not winning
+hobbies: dancing, uncovering secrets, saxaphone
+history: A successful business woman, she's back at home after her company was found to be doing illigal things
+hugs: very handsy hugs
+
+Name: Ariadne
+Role: Aunt
+Pronoun: She/her
+body type:
+likes: sun bathing, being the smartest person in the room, being proven right
+dislikes: ends of books, raw vegtables, her husband
+hobbies: Seamstressing, Dance, Riddles
+history: After a falling out with her husband, they've moved apart to see if they can resolve their differences in a few months
+hugs: heat leaching hugs
+
+Name:
+Role:
+Pronoun:
+body type:
+likes:
+dislikes:
+hobbies:
+history:
+hugs:
+
+general schedule:
+
+Time	Julie	Kat	Ariadne	Barry	Debug
+Morning	Bedroom	Bathroom	Backyard	house inside	house inside
+Day	Car Spot	Loungroom	Kitchen	house outside	house inside
+Afternoon	Front Yard	Backyard	Bathroom	house outside	house inside
+Night	Bathroom	Bedroom	Guest Room	house inside	house outside
+
+
+scene 1 self
+your room - morning
+warm light streaming across your face wakes you up
+it's quite late in the morning, you got in so late last night it was an effort just to make it to your old bed and crawl under the sheets.
+You're back at your mom's house for the first time in a few years. Normally, for half the year you're doing seasonal work up in the mountains and then taking a 5 month lease in a block of apartments near the foot of the mountain, but this year an impressive landslide buried it up to the 4th floor, which nixed your plans. So you've come home and plan to pay your way with favors and a smile.
+You should make yourself presentable and go find Julie to properly say hello, since last night was mostly mumbles.
+end
+
+scene 2 self
+bathroom - morning
+The bathroom looks modern and sleek, dark tiles cover the walls and floor. There's a spacious walk-in shower and big tub on legs with all kinds of bathing products around the edge. Julie has clearly been spending the time since I last was here making everything comfortable and luxurious.
+You quickly wash your face and fix your hair and give yourself a once over.
+[Character creation prompt]
+Content with how you look, you head to the loungeroom to properly greet Julie.
+End scene
+
+scene 1 julie
+living room - morning
+you: Morning Julie, how's it going?
+Julie is standing in the middle of the living room glairing at the TV remote like it has offended her when you walk in.
+[Physical description]
+She's clearly dressed for lounging around the house today because she's just wearing yoga pants and a tank top jumper.
+julie: well, you seem a lot more alive today than last night. Let me get a look at you.
+She grasps you firmly by the shoulders and her eyes travel from your head to your toes, seeming to linger on your chest for a while.
+You're reasonably built from the physical part of your job and that, for most of the year, you have no access to junk or fast food.
+Julie: Well you've shaped yourself into a fine hunk of a man, haven't you?
+Julie spins you around and slaps you on the butt.
+Julie: Now march on over to the kitchen, I've cooked you some breakfast, but it's gotten a bit cold since you slept in. Should still be good.
+Julie then walks past you into the kitchen.
+
+Scene 2 Julie
+Kitchen - morning
+[Have brakefast and get told the tasks that will improve your standing with NPCs]
+
+Scene 3 self
+Outside - any time
+[Look at the surrounding houses and make it clear you can visit them to pester the people living there]
+
+Scene 1 Debug
+Outside - anytime after day 2
+[find package at front door that is addressed wrong decide to deliver it]
+[scene move to front of Debug's house]
+Approaching the house it becomes obvious it's not built like other houses in the cul de sac.
+The house looks like it was made out of cinderblocks instead of brick or wood.
+And upon closer inspection has cables snaking out of holes in the walls to weird gadgets I can't guess the purpose to.
+You approach the door and knock.
+...
+You: Hello? A package for you looks to have been delivered to our house  by mistake.
+There's no response at first, but then you hear static crackling before a voice comes out of one of the nearby gadgets.
+Debug: Are you a cop? Normally the lady who lives at number 24 drops off packages.
+Q: You: I'm her son. I'm a cop. I'm Nobody.
+A1 You: I'm her son, I do seasonal work but my normal summer home is a little burried. [Continue scene]
+A2 You: I'm a cop, I'm here to do cop things.
+Debug: That doesn't sound like something a cop would say, they're not honest. Leave the package and try again sometime. [scene end goto scene 2]
+A3 I'm Nobody.
+Debug: That package isn't addressed to Polyphemus. Do I look cycloptian to you as a single camera embedded in a wall?
+
+

@@ -16,3 +16,7 @@ for (var i=0; i<actor.ariadne+1; i++)
 script = [];//the entier script
 
 quest_flags = [];//flags for multi step actions required to unlock the next scene
+
+var file = file_text_open_read(working_directory + "\script.txt.txt");
+
+
