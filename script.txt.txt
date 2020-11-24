@@ -122,8 +122,18 @@ Debug: Are you a cop? Normally the lady who lives at number 24 drops off package
 Q: You: I'm her son. I'm a cop. I'm Nobody.
 A1 You: I'm her son, I do seasonal work but my normal summer home is a little burried. [Continue scene]
 A2 You: I'm a cop, I'm here to do cop things.
-Debug: That doesn't sound like something a cop would say, they're not honest. Leave the package and try again sometime. [scene end goto scene 2]
+Debug: That doesn't sound like something a cop would say, they're not honest. Leave the package and try again some other time. [scene end goto scene 2]
 A3 I'm Nobody.
 Debug: That package isn't addressed to Polyphemus. Do I look cycloptian to you as a single camera embedded in a wall?
-
+You: If you came out to take my package, I could give you a better assessment?
+You hear some suspicious chuckeling before the tell tale sound of the channel being disconnected.
+A few Seconds later the door opens, seemlingly by itself if whoever lives here isn't hiding behind it.
+The door seems to open into a long corridor, at the far end is an illuminated doorway, the whole corridor is in darkness.
+Debug: Behold!
+You hear a voice you recognize call out from the darkness and banks of small lights start to illuminate the room starting from your end.
+This might be a bit too overly dramatic, but it seems to have been set up in a hurry.
+Now that you can see the person who lives here, they don't look like a cyclops, they actually look quite pretty.
+They have lithe legs clad in thigh-high stripped socks, quite short denim shorts and a white over sized shirt.
+Their hair is somewhere between wavey and curly, and as the lights reach them you can see a aqualine face with delicate features and stricking green eyes.
+Seeing nothing else to do but complete your delivery you walk down the corridor.
 
