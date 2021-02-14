@@ -17,6 +17,7 @@
     {"id":{"name":"mouse_over","path":"scripts/mouse_over/mouse_over.yy",},"order":5,},
     {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
     {"id":{"name":"text_box","path":"objects/text_box/text_box.yy",},"order":0,},
+    {"id":{"name":"draw_textbox_text","path":"scripts/draw_textbox_text/draw_textbox_text.yy",},"order":6,},
     {"id":{"name":"text_choice","path":"objects/text_choice/text_choice.yy",},"order":1,},
     {"id":{"name":"storyline","path":"objects/storyline/storyline.yy",},"order":2,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},

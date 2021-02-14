@@ -20,11 +20,12 @@ box_wid = x2-x1 - margin*2; //maths placeholder to make other code look nice
 pause = false;
 
 //dialouge UI variables
-global.scene = loc.bedroom; //initialization of current scene location
+global.scene = 0; //initialization of current scene location
 text = 0; //which index of the current conversation we're currently displaying
 question = false; //if the current line of dialoug is a question
 convo_end = false; //if the conversation has ended 
 talking = actor.no_one; //which sprite to show as the talking actor
+pose = pose.neutral //which subimage to use from the sprite
 //add second talking person, possible a 3rd to allow for larger scenes
 fade = 0; //used in a transition function
 actor_arrive = false; //flag to handle an actor being added to the conversation

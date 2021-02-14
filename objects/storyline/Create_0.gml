@@ -13,10 +13,17 @@ for (var i=0; i<actor.ariadne+1; i++)
 }
 
 //load from external files
-script = [];//the entier script
+_script = [];//the entier script
 
 quest_flags = [];//flags for multi step actions required to unlock the next scene
 
 var file = file_text_open_read(working_directory + "\script.txt.txt");
 
-
+actor_locations = [];
+/*
+Time	Julie	Kat			Ariadne		Barry			Debug
+Morning	Bedroom	Bathroom	Backyard	house inside	house inside
+Day	Car Spot	Loungroom	Kitchen		house outside	house inside
+A-noon	FntYrd	Backyard	Bathroom	house outside	house inside
+Night	Bathroom	Bedroom	Guest Room	house inside	house outside
+*/

@@ -4,10 +4,10 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 {
 	if cutoff >= string_length(str)-1 && !question
 	{
-		text ++;
-		cutoff =0;
+		text ++; 
+		cutoff =0; //number of characters to not draw at end of string
 		instant = false;
-		str = load_next_text(global.scene,talking,text);
+		str = load_next_text(global.scene,talking, storyline.progress[talking], text); //need to rewrite function to take location, scene from script, line index from scene
 	} else 
 		cutoff = string_length(str);
 }
