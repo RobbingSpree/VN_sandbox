@@ -1,10 +1,10 @@
 //draw actor
 if talking < actor.no_one
 {
-	draw_sprite_ext(talking,talking,0,0,0.5,0.5,0,c_white,fade);
+	draw_sprite_ext(talking,posing,0,0,0.5,0.5,0,c_white,fade);
 }
 draw_set_color(c_red);
-draw_text(20,20,enum_to_string(talking, "actor"));
+draw_text(20,20,dcount);
 draw_set_color(c_white);
 
 //draw textbox

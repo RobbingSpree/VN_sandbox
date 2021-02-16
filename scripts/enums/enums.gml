@@ -22,6 +22,7 @@ function enum_to_string(index, class) {
 	}
 
 	enum loc {
+		nowhere,
 		bedroom,
 		kat_room,
 		julie_room,
@@ -42,6 +43,7 @@ function enum_to_string(index, class) {
 	
 	if class == "Location" || class == "location" {
 		switch (index) {
+			case loc.nowhere:			return "???"; break;
 			case loc.bedroom:			return "Your Bedroom"; break;
 			case loc.kat_room:			return "Kat's Room"; break;
 			case loc.julie_room:		return "Julie's Room"; break;
