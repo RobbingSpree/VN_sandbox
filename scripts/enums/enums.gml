@@ -54,12 +54,12 @@ function enum_to_string(index, class) {
 			case loc.front_yard:		return "Frount Yard"; break;
 			case loc.back_yard:			return "Back Yard"; break;
 			case loc.car_spot:			return "Car Spot"; break;
-			case loc.barry_house_out:	return "Barry's Front Door"; break;
-			case loc.barry_house_in:	return "Inside Barry's House"; break;
-			case loc.debug_house_out:	return "Debug's Frount Door"; break;
-			case loc.debug_house_in:	return "Debug's House"; break;
-			case loc.ariadne_house_out:	return "Ariadne's Frount Door"; break;
-			case loc.ariadne_house_in:	return "Ariadne's House"; break;
+			case loc.barry_house_out:	return "Barry's House"; break;
+			case loc.barry_house_in:	return "Inside"; break;
+			case loc.debug_house_out:	return "Debug's House"; break;
+			case loc.debug_house_in:	return "Inside"; break;
+			case loc.ariadne_house_out:	return "Ariadne's House"; break;
+			case loc.ariadne_house_in:	return "Inside"; break;
 		}
 	}
 	

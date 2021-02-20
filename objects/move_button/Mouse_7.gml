@@ -11,9 +11,10 @@ if hide == false
 		//make child buttons for the current location
 		var count = 0;
 		var unit = 60;
-		var yy = y + 30;
+		var yy = y + 40;
+		var locat = accessable[location];
 		for (var i=0; i<=loc.ariadne_house_in; i++) {
-			if 2^i & accessable[location] {
+			if power(2,i) & accessable[location] {
 				var button = instance_create_layer(x+20,yy+unit*count,"higherInstances",obj_button);
 				button.str = enum_to_string(i,"location");
 				button.index = i;

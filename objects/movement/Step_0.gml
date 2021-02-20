@@ -1,4 +1,4 @@
-
+location = global.scene;
 
 if update_room_list {
 	//make child buttons for the current location
@@ -23,7 +23,3 @@ if x != dx {
 	if abs(x - dx) < 5
 		x = dx;
 } 
-
-//debug
-if keyboard_check_pressed(vk_space)
-	location++

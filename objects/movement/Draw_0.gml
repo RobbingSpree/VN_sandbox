@@ -16,6 +16,8 @@ for (var i=0; i<loc.ariadne_house_in; i++) {
 		draw_text(x+40,y+30+30*i,enum_to_string(i,"location"));
 	}
 */
-draw_set_color(c_white);
 
+var loc_str = enum_to_string(location,"location");
+nine_slice_draw(image_index,10,10,10+string_width(loc_str)+20,10+string_height(loc_str)+20);
 draw_text(20,20,enum_to_string(location,"location"));
+draw_set_color(c_white);

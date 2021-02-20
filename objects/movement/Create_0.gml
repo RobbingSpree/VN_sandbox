@@ -18,11 +18,11 @@ accessable[loc.front_yard] = 44544;			//256
 accessable[loc.back_yard] = 800;			//512
 accessable[loc.car_spot] = 784;				//1024
 accessable[loc.barry_house_out] = 4352;		//2048
-accessable[loc.barry_house_in] = 2048;		//4096
+accessable[loc.barry_house_in] = 256;		//4096
 accessable[loc.debug_house_out] = 16640;	//8192
-accessable[loc.debug_house_in] = 8192;		//16384
-accessable[loc.ariadne_house_out] = 33024;	//32768
-accessable[loc.ariadne_house_in] = 65792;	//65536
+accessable[loc.debug_house_in] = 256;		//16384
+accessable[loc.ariadne_house_out] = 65792;	//32768
+accessable[loc.ariadne_house_in] = 256;	//65536
 
 #endregion
 

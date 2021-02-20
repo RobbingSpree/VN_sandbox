@@ -1,4 +1,4 @@
-movement.location = index;
+global.scene = index;
 move_button.hide = true;
 
 move_button.dx = move_button.return_point;
