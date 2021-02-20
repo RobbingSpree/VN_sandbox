@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-location = loc.nowhere; //current location
+location = loc.bedroom; //current location
 
 accessable = []; //table of avaliable locations stored as binary data
 #region bitwise movement code
@@ -11,7 +11,7 @@ accessable[loc.bedroom] = 544;				//2
 accessable[loc.kat_room] = 544;				//4
 accessable[loc.julie_room] = 544;			//8
 accessable[loc.guest_room] = 32;			//16
-accessable[loc.lounge_room] = 2047;			//32
+accessable[loc.lounge_room] = 990;			//32
 accessable[loc.kitchen] = 1184;				//64
 accessable[loc.bathroom] = 544;				//128
 accessable[loc.front_yard] = 44544;			//256
@@ -28,6 +28,6 @@ accessable[loc.ariadne_house_in] = 65792;	//65536
 
 child_buttons = [];
 
-hidden = true;
+update_room_list = false;
 
-dx = x + 200; //delta x position used to slide objects off and on screen
+dx = x ; //delta x position used to slide objects off and on screen

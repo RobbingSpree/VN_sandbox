@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-str = "debug";
-image_xscale = 3.5;
-text_box.dcount++
-index = 0;
-dx = x;
+
+if x != dx {
+	x = lerp(x,dx,0.1);
+	if abs(x - dx) < 5
+		x = dx;
+}
