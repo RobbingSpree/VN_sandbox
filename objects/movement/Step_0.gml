@@ -18,6 +18,7 @@ if update_room_list {
 	update_room_list = false;
 } 
 
+//slide in and out of frame
 if x != dx {
 	x = lerp(x,dx,0.1);
 	if abs(x - dx) < 5

@@ -27,3 +27,14 @@ Day	Car Spot	Loungroom	Kitchen		house outside	house inside
 A-noon	FntYrd	Backyard	Bathroom	house outside	house inside
 Night	Bathroom	Bedroom	Guest Room	house inside	house outside
 */
+
+/*
+data requirements for script struct
+string for line of dialog
+flag for if it's not a question, a question with 2 answers or a question with 3 answers
+flag for who's talking
+index of expression/pose to change to
+index of next line once this one is done
+flag for line interrupt once text is completely written
+
+*/
