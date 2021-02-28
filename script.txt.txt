@@ -4,6 +4,7 @@ Name: Barry
 Role: Neighbor
 pronoun: he/him
 Body type: Muscly Dad Bod
+Physical Desc: Tall with broad shoulders, has a short back and sides haircut, square jaw with 5 O'clock shadow. Built like a brick, but is starting to lose muscle defenition. Large calloused hands. Chest hair pokes out of shirts.
 Likes: Potaotes, Grills, Liqurish
 Dislikes: MIDWTF, Pool Parties, Lack of someone to dote on
 Hobbies: Building furniture, slow cooking meats, weather tracking
@@ -14,6 +15,7 @@ Name: Debug
 Role: Neighbor
 pronoun: they, them
 Body Type: Cat burgler
+Physical desc: Long hair in a bun, very narrow shoulders and hips, toned arms and stomach, a bit of a butt. Soft features on their face, tick eyebrows, button nose, green eyes. Dextrous fingers that often have nail polish on them. Comes up to the protag's shoulders.
 Likes: Programmer socks, the dark, efficient exercsize
 Dislikes: gender norms, comments about their height, house chores
 hobbies: hacking, mixing energy drinks, gymnastics
@@ -24,6 +26,7 @@ Name: Julie
 Role: Mom
 Pronoun: She/her
 body type: Triangle
+physical desc: Shoulder length hair with a loose curl. Narrow shoulders and large hips, not very well endowed on the chest.
 likes: gardening, painting, warm hugs
 dislikes: messes, disorder caused by others, an empty fridge
 hobbies: growing vegetables,
@@ -34,6 +37,7 @@ Name: Kat
 Role: Sibling
 Pronoun: She/her
 body type: apple
+physical desc: Supple body, wide hips and short hair. Aqualine nose, elven features, 
 likes: order, others doing things for her, attention
 dislikes: unrewarded effort, dishonesty, not winning
 hobbies: dancing, uncovering secrets, saxaphone
