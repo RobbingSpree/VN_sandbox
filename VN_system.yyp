@@ -15,6 +15,7 @@
     {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
     {"id":{"name":"text_box","path":"objects/text_box/text_box.yy",},"order":0,},
     {"id":{"name":"draw_textbox_text","path":"scripts/draw_textbox_text/draw_textbox_text.yy",},"order":6,},
+    {"id":{"name":"actor_deets","path":"scripts/actor_deets/actor_deets.yy",},"order":7,},
     {"id":{"name":"side_menu_spr","path":"sprites/side_menu_spr/side_menu_spr.yy",},"order":11,},
     {"id":{"name":"text_choice","path":"objects/text_choice/text_choice.yy",},"order":1,},
     {"id":{"name":"storyline","path":"objects/storyline/storyline.yy",},"order":2,},

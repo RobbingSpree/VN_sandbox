@@ -15,7 +15,7 @@ Name: Debug
 Role: Neighbor
 pronoun: they, them
 Body Type: Cat burgler
-Physical desc: Long hair in a bun, very narrow shoulders and hips, toned arms and stomach, a bit of a butt. Soft features on their face, tick eyebrows, button nose, green eyes. Dextrous fingers that often have nail polish on them. Comes up to the protag's shoulders.
+Physical Desc: Long hair in a bun, very narrow shoulders and hips, toned arms and stomach, a bit of a butt. Soft features on their face, tick eyebrows, button nose, green eyes. Dextrous fingers that often have nail polish on them. Comes up to the protag's shoulders.
 Likes: Programmer socks, the dark, efficient exercsize
 Dislikes: gender norms, comments about their height, house chores
 hobbies: hacking, mixing energy drinks, gymnastics
@@ -26,7 +26,7 @@ Name: Julie
 Role: Mom
 Pronoun: She/her
 body type: Triangle
-physical desc: Shoulder length hair with a loose curl. Narrow shoulders and large hips, not very well endowed on the chest.
+Physical Desc: Shoulder length hair with a loose curl. Narrow shoulders and large hips, not very well endowed on the chest.
 likes: gardening, painting, warm hugs
 dislikes: messes, disorder caused by others, an empty fridge
 hobbies: growing vegetables,
@@ -37,7 +37,7 @@ Name: Kat
 Role: Sibling
 Pronoun: She/her
 body type: apple
-physical desc: Supple body, wide hips and short hair. Aqualine nose, elven features, 
+Physical Desc: Supple body, wide hips and short hair. Aqualine nose, elven features, smaller hands.
 likes: order, others doing things for her, attention
 dislikes: unrewarded effort, dishonesty, not winning
 hobbies: dancing, uncovering secrets, saxaphone
@@ -47,13 +47,15 @@ hugs: very handsy hugs
 Name: Ariadne
 Role: Aunt
 Pronoun: She/her
-body type:
+body type: Librarian
+Physical Desc: built like a beanpole, frizzy hair with thick glasses and a small nose. Piano player fingers, often wears summer dresses.
 likes: sun bathing, being the smartest person in the room, being proven right
 dislikes: ends of books, raw vegtables, her husband
 hobbies: Seamstressing, Dance, Riddles
 history: After a falling out with her husband, they've moved apart to see if they can resolve their differences in a few months
 hugs: heat leaching hugs
 
+--END--
 Name:
 Role:
 Pronoun:

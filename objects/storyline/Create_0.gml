@@ -18,6 +18,25 @@ _script = [];//the entier script
 quest_flags = [];//flags for multi step actions required to unlock the next scene
 
 var file = file_text_open_read(working_directory + "\script.txt.txt");
+actors = [];
+for (i=0; i<=actor.ariadne; i++) {
+	var a = new actor_deets();
+	actors[i] = a;
+	//skip to data
+	file_text_readln(file);
+	file_text_readln(file);
+	//get details
+	var str = "";
+	str = file_text_read_string(file);
+	//sanitize string
+	var ind = string_pos(": ",str);
+	str = string_delete(str,0,ind);
+	//store value
+	a.namewa = str;
+	file_text_readln(file);
+	//repeate for rest of values
+	
+}
 
 actor_locations = [];
 /*
