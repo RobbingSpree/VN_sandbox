@@ -1,0 +1,21 @@
+index,str,num_o_strings,b_str,c_str,backtrack_to,advance_to,badvance_to,cadvance_to,speaking,emote_change_to,story_flag,character_bookmark,scene_end,notes
+1,Warm light streaming across your face wakes you up.,1,,,,2,,,you,,,,,
+2,"it's quite late in the morning, you got in so late last night it was an effort just to make it to your old bed and crawl under the sheets.",1,,,,3,,,you,,,,,
+3,You're back at your mom's house for the first time in a few years.,1,,,,4,,,you,,,,,
+4,"Normally, for half the year you're doing seasonal work up in the mountains",1,,,,5,,,you,,,,,
+5,Followed by a 5 month lease in a block of appartments in the company town at the foot of the mountain.,1,,,,6,,,you,,,,,
+6,"But this year, an impressive landslide burried the block up to the 4th floor.",1,,,,7,,,you,,,,,
+7,As such your plans have been nixed and you've come home and plan to pay your way with favors and a smile.,1,,,,8,,,you,,,,,
+8,You should make yourself presentable and go find Julie to properly say hello.,1,,,,9,,,you,,,,,
+9,Last night was mostly mumbles and stumbles as you came home a proper prodigal son.,1,,,,11,,,you,,Julie,10,TRUE,"End of opening scene, requires visiting the bathroom to trigger the next story beat"
+10,I should wash up in the bathroom first.,1,,,10,12,,,you,,,,TRUE,
+11,"The Bathroom is modern and sleek, dark tiles cover the walls and floor. You examine the room while fixing yourself up.",1,,,,13,,,you,,,,,
+12,There's a spacious walk-in shower and a sizable bathtub on legs with all sorts of bathing products around the edge.,1,,,,14,,,you,,,,,
+13,Julie has clearly been spending a lot of time since i was last here making everything comfortable and luxourious.,1,,,,15,,,you,,,,,
+14,"You quickly wash your face, fix your hair and give yourself a once over.",1,,,,16,,,you,,,,,
+15,[Character creation prompt],1,,,,17,,,you,,,,,
+16,Content with how you look you head to the Living Room where you can hear activity to properly greet Julie.,1,,,,18,,,you,,Julie,17,TRUE,End 2nd scene
+17,"Morning Julie, how's it going?",,,,,,,,,,,,,
+18,Julie is standing in the middle of the room glairing at the TV remote like it offended her when you walked in.,,,,,,,,,,,,,
+19,"Julie has shoulder length hair with a loose curl, narrow shoulders and wide hips. She's wearing an outfit for exersize.",,,,,,,,,,,,,
+20,I think she planned on follwoing a yoga exersize video before technology got in the way. ,,,,,,,,,,,,,

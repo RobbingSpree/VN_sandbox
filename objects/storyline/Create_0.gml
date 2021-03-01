@@ -14,33 +14,28 @@ for (var i=0; i<actor.ariadne+1; i++)
 
 //load from external files
 _script = [];//the entier script
-
-quest_flags = [];//flags for multi step actions required to unlock the next scene
+last_line = 20; //magic number, total number of lines in script
 
 //open file
 var scr = load_csv("script.csv")
 
 
-var file = file_text_open_read(working_directory + "script.txt.txt");
-actors = [];
-if file_exists(file)
-for (i=0; i<=actor.ariadne; i++) {
-	var a = new actor_deets();
-	actors[i] = a;
-	//skip to data
-	file_text_readln(file);
-	file_text_readln(file);
-	//get details
-	var str = "";
-	str = file_text_read_string(file);
-	//sanitize string
-	var ind = string_pos(": ",str);
-	str = string_delete(str,0,ind);
-	//store value
-	a.namewa = str;
-	file_text_readln(file);
-	//repeate for rest of values
-	
+quest_flags = [];//flags for multi step actions required to unlock the next scene
+
+
+
+var file = load_csv("actor_desc.csv");
+for (var k=0; k<5; k++) {
+	var act = new actor_deets();
+	act.index =		file[# 0,k];
+	act.namewa  =	file[# 1,k];
+	act.pronoun =	file[# 2,k];
+	act.body =		file[# 3,k];
+	act.phys_desc = file[# 4,k];
+	act.likes =		file[# 5,k];
+	act.dislikes =	file[# 6,k];
+	act.history =	file[# 7,k];
+	act.hugs =		file[# 8,k];
 }
 
 actor_locations = [];

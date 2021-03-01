@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "actor_deets",
+  "name": "struct_constructors",
   "tags": [],
   "resourceType": "GMScript",
 }
