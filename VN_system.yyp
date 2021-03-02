@@ -9,6 +9,7 @@
     {"id":{"name":"enums","path":"scripts/enums/enums.yy",},"order":2,},
     {"id":{"name":"nine_slice_draw","path":"scripts/nine_slice_draw/nine_slice_draw.yy",},"order":3,},
     {"id":{"name":"d5bb9138_7942_4400_a898_08563d1f72fe","path":"sprites/d5bb9138_7942_4400_a898_08563d1f72fe/d5bb9138_7942_4400_a898_08563d1f72fe.yy",},"order":9,},
+    {"id":{"name":"set_the_stage","path":"scripts/set_the_stage/set_the_stage.yy",},"order":9,},
     {"id":{"name":"load_question","path":"scripts/load_question/load_question.yy",},"order":4,},
     {"id":{"name":"mouse_over","path":"scripts/mouse_over/mouse_over.yy",},"order":5,},
     {"id":{"name":"movement","path":"objects/movement/movement.yy",},"order":3,},

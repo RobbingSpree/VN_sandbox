@@ -36,9 +36,7 @@ function enum_to_string(index, class) {
 		barry_house_out,
 		barry_house_in,
 		debug_house_out,
-		debug_house_in,
-		ariadne_house_out,
-		ariadne_house_in
+		debug_house_in
 	}
 	
 	if class == "Location" || class == "location" {
@@ -58,8 +56,6 @@ function enum_to_string(index, class) {
 			case loc.barry_house_in:	return "Inside"; break;
 			case loc.debug_house_out:	return "Debug's House"; break;
 			case loc.debug_house_in:	return "Inside"; break;
-			case loc.ariadne_house_out:	return "Ariadne's House"; break;
-			case loc.ariadne_house_in:	return "Inside"; break;
 		}
 	}
 	
@@ -72,6 +68,24 @@ function enum_to_string(index, class) {
 		mysterious,
 		dizzy
 	}
-
+	
+	enum time {
+		morning,
+		midday,
+		afternoon,
+		night,
+		late_night,
+		early_morning	
+	}
+	
+	if class == "Time" || class == "time" {
+		switch (index) {
+			case time.morning:			return "Morning"; break;	
+			case time.midday:			return "Midday"; break;	
+			case time.afternoon:		return "Afternoon"; break;	
+			case time.night:			return "Night"; break;	
+			case time.late_night:		return "Late Night"; break;	
+			case time.early_morning:	return "Early Morning"; break;	
+		}
 
 }

@@ -16,12 +16,13 @@ for (var i=0; i<actor.ariadne+1; i++)
 _script = [];//the entier script
 last_line = 20; //magic number, total number of lines in script
 
-//open file
-var scr = load_csv("script.csv")
-
+//import script into game
+csv_to_dialog("script.csv");
 
 quest_flags = [];//flags for multi step actions required to unlock the next scene
-
+for (var i=0; i<=actor.ariadne; i++) {
+	quest_flags[i] = 0;
+}
 
 
 var file = load_csv("actor_desc.csv");
@@ -38,22 +39,16 @@ for (var k=0; k<5; k++) {
 	act.hugs =		file[# 8,k];
 }
 
-actor_locations = [];
-/*
-Time	Julie	Kat			Ariadne		Barry			Debug
-Morning	Bedroom	Bathroom	Backyard	house inside	house inside
-Day	Car Spot	Loungroom	Kitchen		house outside	house inside
-A-noon	FntYrd	Backyard	Bathroom	house outside	house inside
-Night	Bathroom	Bedroom	Guest Room	house inside	house outside
-*/
+//pour in the actor locations
+actor_locations = set_the_stage(0);
 
 /*
-data requirements for script struct
-string for line of dialog
-flag for if it's not a question, a question with 2 answers or a question with 3 answers
-flag for who's talking
-index of expression/pose to change to
-index of next line once this one is done
-flag for line interrupt once text is completely written
+actors enum
+no_one,
+me,
+barry,
+debug,
+julie,
+kat,
+ariadne
 
-*/

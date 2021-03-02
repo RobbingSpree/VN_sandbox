@@ -21,12 +21,8 @@ accessable[loc.barry_house_out] = 4352;		//2048
 accessable[loc.barry_house_in] = 256;		//4096
 accessable[loc.debug_house_out] = 16640;	//8192
 accessable[loc.debug_house_in] = 256;		//16384
-accessable[loc.ariadne_house_out] = 65792;	//32768
-accessable[loc.ariadne_house_in] = 256;	//65536
 
 #endregion
-
-child_buttons = [];
 
 update_room_list = false;
 
