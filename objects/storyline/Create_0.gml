@@ -7,26 +7,26 @@ next_scene_unlocked = []; //flag for if the player can access the next scene for
 
 for (var i=0; i<actor.ariadne+1; i++)
 {
-	progress[i] = 0;
+	progress[i] = 0; //if loading game need to load these values from save file
 	next_scene_unlocked[i] = true;
 	holding_dialog[i]="I'm a bit busy at the moment. Sorry can we talk later?";
 }
 
 //load from external files
 _script = [];//the entier script
-last_line = 20; //magic number, total number of lines in script
-
+last_line = 20; //magic number, total number of lines in script, can get from height of the csv import but it can have weird extra values
+current_line = 0;
 //import script into game
-csv_to_dialog("script.csv");
+csv_to_dialog("VN_Script.csv");
 
 quest_flags = [];//flags for multi step actions required to unlock the next scene
 for (var i=0; i<=actor.ariadne; i++) {
 	quest_flags[i] = 0;
 }
 
-
+actors = [];
 var file = load_csv("actor_desc.csv");
-for (var k=0; k<5; k++) {
+for (var k=1; k<6; k++) {
 	var act = new actor_deets();
 	act.index =		file[# 0,k];
 	act.namewa  =	file[# 1,k];
@@ -37,6 +37,7 @@ for (var k=0; k<5; k++) {
 	act.dislikes =	file[# 6,k];
 	act.history =	file[# 7,k];
 	act.hugs =		file[# 8,k];
+	actors[k] = act;
 }
 
 //pour in the actor locations

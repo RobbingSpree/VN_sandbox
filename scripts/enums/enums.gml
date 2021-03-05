@@ -88,4 +88,5 @@ function enum_to_string(index, class) {
 			case time.early_morning:	return "Early Morning"; break;	
 		}
 
+	}
 }
