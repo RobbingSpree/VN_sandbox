@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "load_question",
+  "name": "load_buttons",
   "tags": [],
   "resourceType": "GMScript",
 }

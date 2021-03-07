@@ -10,7 +10,7 @@
     {"id":{"name":"nine_slice_draw","path":"scripts/nine_slice_draw/nine_slice_draw.yy",},"order":3,},
     {"id":{"name":"d5bb9138_7942_4400_a898_08563d1f72fe","path":"sprites/d5bb9138_7942_4400_a898_08563d1f72fe/d5bb9138_7942_4400_a898_08563d1f72fe.yy",},"order":9,},
     {"id":{"name":"set_the_stage","path":"scripts/set_the_stage/set_the_stage.yy",},"order":9,},
-    {"id":{"name":"load_question","path":"scripts/load_question/load_question.yy",},"order":4,},
+    {"id":{"name":"load_buttons","path":"scripts/load_buttons/load_buttons.yy",},"order":4,},
     {"id":{"name":"mouse_detect","path":"scripts/mouse_detect/mouse_detect.yy",},"order":5,},
     {"id":{"name":"movement","path":"objects/movement/movement.yy",},"order":3,},
     {"id":{"name":"csv_import","path":"scripts/csv_import/csv_import.yy",},"order":8,},
