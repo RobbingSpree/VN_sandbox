@@ -5,7 +5,6 @@
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":4,},
     {"id":{"name":"chara_gen_spr","path":"sprites/chara_gen_spr/chara_gen_spr.yy",},"order":10,},
     {"id":{"name":"interact_button","path":"objects/interact_button/interact_button.yy",},"order":6,},
-    {"id":{"name":"load_next_text","path":"scripts/load_next_text/load_next_text.yy",},"order":1,},
     {"id":{"name":"enums","path":"scripts/enums/enums.yy",},"order":2,},
     {"id":{"name":"nine_slice_draw","path":"scripts/nine_slice_draw/nine_slice_draw.yy",},"order":3,},
     {"id":{"name":"d5bb9138_7942_4400_a898_08563d1f72fe","path":"sprites/d5bb9138_7942_4400_a898_08563d1f72fe/d5bb9138_7942_4400_a898_08563d1f72fe.yy",},"order":9,},

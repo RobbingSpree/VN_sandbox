@@ -29,21 +29,43 @@ function line() constructor{
 	scene_end			= false;	//if this line is the end of a scene and to re-enable movement
 	notes				= "";		//debug values and story notes, cane make visible from text_box
 	
-	static next = function(i,advance) {
-		if !scene_end
-			switch advance {
-				case "a": load_next_text(advance_to); break;
-				case "b": load_next_text(badvance_to); break;
-				case "c": load_next_text(cadvance_to); break;
-				default: load_next_text(advance_to);
-			}
-		else {
+	static next = function() {
+		//update story flags
+		
+		//advance scene or end scene
+		var i = storyline.current_line;
+		if scene_end 
+			load_next_text();
+		else {			
 			//release move lock
-			
+				
 			//clear textbox
-			
+				with text_box {
+					convo_end = true;
+					str = "";
+					storyline.current_line= -1;
+				}
 			//bring up location interact menu
-			
+				load_interaction(false);
+		}
+		//bug check
+		if i == storyline.current_line { //if using a debug string or have a rollback loop, force dialog forward
+			storyline.current_line++;
+			text_box.str = storyline._script[storyline.current_line].str;
+		}
+	}
+	
+	static load_next_text = function() {
+		var target = -1;
+		switch text_box.choice {
+			case ch.a: target = advance_to; break;
+			case ch.b: target = badvance_to; break;
+			case ch.c: target = cadvance_to; break;
+			default: target = advance_to;
+		}
+		if target != -1 {
+			storyline.current_line=target;
+			text_box.str = storyline._script[target].str;
 		}
 	}
 }

@@ -11,6 +11,17 @@ for (var i=0; i<5; i++) {
 */
 
 //show next line data
-var str = _script[current_line].advance_to;
-
-draw_text(30,90,str);
+if current_line != -1 {
+	var str = _script[current_line].scene_end;
+	
+	if str == true
+		str = "last line";
+	else
+		str = "continue";
+	
+	draw_text(30,90,str);
+	str = "next line: " + string(_script[current_line].advance_to);
+	draw_text(30,110,str);
+	str = "current line: " + string(current_line);
+	draw_text(30,130,str);
+}

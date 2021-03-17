@@ -10,6 +10,7 @@ y=y1; //jump to poition
 //textbox variables
 str = "Press Space or Left Click this box to advance."; //string displayed in textbox
 draw_set_font(defont); //current font
+choice = ch.normal; //current choice in a dialog tree
 modifier = 0;
 margin = 30; //gap kept between text and edge of textbox in px
 new_row = 30; //gap between rows of text inside textbox

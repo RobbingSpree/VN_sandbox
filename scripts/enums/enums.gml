@@ -69,6 +69,13 @@ function enum_to_string(index, class) {
 		dizzy
 	}
 	
+	enum ch {
+		normal,
+		a,
+		b,
+		c
+	} 
+	
 	enum time {
 		morning,
 		midday,
