@@ -12,7 +12,7 @@ if hide == false
 		var count = 0;
 		var unit = 60;
 		var yy = y + 40;
-		for (var i=0; i<=loc.barry_house_in; i++) {
+		for (var i=0; i<=loc.debug_house_in; i++) {
 			if power(2,i) & accessable[location] {
 				var button = instance_create_layer(x+20,yy+unit*count,"higherInstances",obj_button);
 				button.str = enum_to_string(i,"location");

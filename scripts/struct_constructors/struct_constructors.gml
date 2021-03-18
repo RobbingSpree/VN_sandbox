@@ -34,9 +34,13 @@ function line() constructor{
 	static next = function() {
 		//update story flags
 		
+		
+		//check for move flag
+		if move_to != -1 
+			global.scene = move_to;
 		//advance scene or end scene
 		var i = storyline.current_line;
-		if scene_end 
+		if !scene_end 
 			load_next_text();
 		else {			
 			//release move lock

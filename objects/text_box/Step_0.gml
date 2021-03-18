@@ -8,7 +8,6 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 			instant = false; //reset flag so next line animates if this one was skipped
 			storyline._script[storyline.current_line].next()
 		} else {
-			cutoff =0;
 			instant = false;
 			cutoff = string_length(str);
 		}
