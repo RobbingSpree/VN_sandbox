@@ -1,12 +1,12 @@
 
 if choice == "Talk"
-	action = start_a_convo()
+	action = start_a_convo;
 if choice == "Look"
-	action = look_at_room()
+	action = look_at_room;
 if choice == "Use"
-	action = use_a_thing()()
+	action = use_a_thing;
 if choice == "Debug"
-	action = show_debug_values();
+	action = show_debug_values;
 	
 if mouse_over(self) && mouse_check_button_released(mb_left)
 {

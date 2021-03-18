@@ -4,4 +4,4 @@ choice = "Talk";
 
 str = "Talk";
 
-action = not_a_function();
+action = not_a_function;

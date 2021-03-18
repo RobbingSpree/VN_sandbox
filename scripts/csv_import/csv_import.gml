@@ -23,13 +23,13 @@ function csv_to_dialog(_filename){
 		if (tabel[# 4, i]) != ""
 			l.c_str					 = tabel[# 4, i]; //option 3 in a dialog choice
 		if (tabel[# 5, i]) != ""
-			l.backtrack_to			 = real(tabel[# 5, i])-1; //index to roll back to if you fail the story flag check
+			l.backtrack_to			 = real(tabel[# 5, i]); //index to roll back to if you fail the story flag check
 		if (tabel[# 6, i]) != ""
-			l.advance_to			 = real(tabel[# 6, i])-1; //fix some inaccuracies from the csv row display
+			l.advance_to			 = real(tabel[# 6, i]); 
 		if (tabel[# 7, i]) != ""
-			l.badvance_to			 = real(tabel[# 7, i])-1;
+			l.badvance_to			 = real(tabel[# 7, i]);
 		if (tabel[# 8, i]) != ""
-			l.cadvance_to			 = real(tabel[# 8, i])-1;
+			l.cadvance_to			 = real(tabel[# 8, i]);
 		if (tabel[# 9, i]) != ""
 			l.speaking				 = tabel[# 9, i];
 		if (tabel[# 10, i]) != ""
@@ -38,10 +38,14 @@ function csv_to_dialog(_filename){
 			l.story_flag			 = tabel[# 11, i]; //returns a string so need to either translate this to an enum now or later
 		if (tabel[# 12, i]) != ""
 			l.character_bookmark	 = real(tabel[# 12, i]); 
-		if (tabel[# 13, i]) != "TRUE"
+		if (tabel[# 13, i]) == "TRUE"
 			l.scene_end				 = true; //default value is false
 		if (tabel[# 14, i]) != ""
-			l.notes					 = tabel[# 14, i];
+			l.bg_change					 = tabel[# 14, i];
+		if (tabel[# 15, i]) != ""
+			l.move_to					 = string_to_enum(tabel[# 15, i]);
+		if (tabel[# 16, i]) != ""
+			l.notes					 = tabel[# 16, i];
 		
 		storyline._script[i-1] = l;
 	}

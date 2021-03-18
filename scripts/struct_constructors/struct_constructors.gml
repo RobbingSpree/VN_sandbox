@@ -27,6 +27,8 @@ function line() constructor{
 	story_flag			= -1;		//enum of actor who's story flag is advanced by this line of dialog
 	character_bookmark	= -1;		//next line of dialog to pick up from when talking to this character next
 	scene_end			= false;	//if this line is the end of a scene and to re-enable movement
+	bg_change			= noone;	//change bg art if needed for scene
+	move_to				= -1;		//move between areas as part of scene
 	notes				= "";		//debug values and story notes, cane make visible from text_box
 	
 	static next = function() {

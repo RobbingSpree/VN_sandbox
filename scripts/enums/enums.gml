@@ -41,21 +41,21 @@ function enum_to_string(index, class) {
 	
 	if class == "Location" || class == "location" {
 		switch (index) {
-			case loc.nowhere:			return "???"; break;
-			case loc.bedroom:			return "Your Bedroom"; break;
-			case loc.kat_room:			return "Kat's Room"; break;
-			case loc.julie_room:		return "Julie's Room"; break;
-			case loc.guest_room:		return "Guest Room"; break;
-			case loc.lounge_room:		return "Lounge Room"; break;
-			case loc.kitchen:			return "Kitchen"; break;
-			case loc.bathroom:			return "Bathroom"; break;
-			case loc.front_yard:		return "Frount Yard"; break;
-			case loc.back_yard:			return "Back Yard"; break;
-			case loc.car_spot:			return "Car Spot"; break;
+			case loc.nowhere:			return "???";			break;
+			case loc.bedroom:			return "Your Bedroom";	break;
+			case loc.kat_room:			return "Kat's Room";	break;
+			case loc.julie_room:		return "Julie's Room";	break;
+			case loc.guest_room:		return "Guest Room";	break;
+			case loc.lounge_room:		return "Lounge Room";	break;
+			case loc.kitchen:			return "Kitchen";		break;
+			case loc.bathroom:			return "Bathroom";		break;
+			case loc.front_yard:		return "Frount Yard";	break;
+			case loc.back_yard:			return "Back Yard";		break;
+			case loc.car_spot:			return "Car Spot";		break;
 			case loc.barry_house_out:	return "Barry's House"; break;
-			case loc.barry_house_in:	return "Inside"; break;
+			case loc.barry_house_in:	return "Inside";		break;
 			case loc.debug_house_out:	return "Debug's House"; break;
-			case loc.debug_house_in:	return "Inside"; break;
+			case loc.debug_house_in:	return "Inside";		break;
 		}
 	}
 	
@@ -95,5 +95,25 @@ function enum_to_string(index, class) {
 			case time.early_morning:	return "Early Morning"; break;	
 		}
 
+	}
+}
+
+function string_to_enum(str) { //turning csv versions of the move to the enum version to make them more readable
+	switch (str) {
+			case "???":				return loc.nowhere;			break;
+			case "Your Bedroom":	return loc.bedroom;			break;
+			case "Kat's Room":		return loc.kat_room;		break;
+			case "Julie's Room":	return loc.julie_room;		break;
+			case "Guest Room":		return loc.guest_room;		break;
+			case "Lounge Room":		return loc.lounge_room;		break;
+			case "Kitchen":			return loc.kitchen;			break;
+			case "Bathroom":		return loc.bathroom;		break;
+			case "Frount Yard":		return loc.front_yard;		break;
+			case "Back Yard":		return loc.back_yard;		break;
+			case "Car Spot":		return loc.car_spot;		break;
+			case "Barry's House":	return loc.barry_house_out;	break;
+			case "Barry's Inside":	return loc.barry_house_in;	break;
+			case "Debug's House":	return loc.debug_house_out;	break;
+			case "Debug's Inside":	return loc.debug_house_in;	break;
 	}
 }

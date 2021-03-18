@@ -34,7 +34,7 @@ actor_leave = false;  //flag to handle an actor leaving the scene
 
 //question object positions
 //positions are arbitrary and looked nice
-quest_y = y1-50-130; 
+quest_y = y1+30; 
 pt3_a = x1+30;
 pt3_b = pt3_a+210;
 pt3_c = pt3_b+210;

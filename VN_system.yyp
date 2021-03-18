@@ -3,7 +3,6 @@
     {"id":{"name":"txt_box_spr","path":"sprites/txt_box_spr/txt_box_spr.yy",},"order":0,},
     {"id":{"name":"dialoug_choice_spr","path":"sprites/dialoug_choice_spr/dialoug_choice_spr.yy",},"order":1,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":4,},
-    {"id":{"name":"chara_gen_spr","path":"sprites/chara_gen_spr/chara_gen_spr.yy",},"order":10,},
     {"id":{"name":"interact_button","path":"objects/interact_button/interact_button.yy",},"order":6,},
     {"id":{"name":"enums","path":"scripts/enums/enums.yy",},"order":2,},
     {"id":{"name":"nine_slice_draw","path":"scripts/nine_slice_draw/nine_slice_draw.yy",},"order":3,},
@@ -69,8 +68,8 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"script.txt.txt","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"VN_Script.csv","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"actor_desc.csv","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"VN_Script.csv","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",
