@@ -34,12 +34,12 @@ actor_leave = false;  //flag to handle an actor leaving the scene
 
 //question object positions
 //positions are arbitrary and looked nice
-quest_y = y1+30; 
-pt3_a = x1+30;
-pt3_b = pt3_a+210;
-pt3_c = pt3_b+210;
-pt2_a = x1+50;
-pt2_b = pt2_a+350;
+#macro quest_y text_box.y+30 
+#macro pt3_a (room_width/5)+30
+#macro pt3_b pt3_a+210
+#macro pt3_c pt3_b+210
+#macro pt2_a (room_width/5)+50
+#macro pt2_b pt2_a+350
 
 //sound
 //toggled off due to no sounds

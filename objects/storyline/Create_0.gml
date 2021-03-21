@@ -15,7 +15,7 @@ for (var i=0; i<actor.ariadne+1; i++)
 //load from external files
 _script = [];//the entier script
 last_line = 20; //magic number, total number of lines in script, can get from height of the csv import but it can have weird extra values
-current_line = 0;
+current_line = 1;
 //import script into game
 csv_to_dialog("VN_Script.csv");
 
@@ -23,6 +23,7 @@ quest_flags = [];//flags for multi step actions required to unlock the next scen
 for (var i=0; i<=actor.ariadne; i++) {
 	quest_flags[i] = 0;
 }
+time_o_day = time.morning;
 
 actors = [];
 var file = load_csv("actor_desc.csv");
