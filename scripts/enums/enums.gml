@@ -98,22 +98,40 @@ function enum_to_string(index, class) {
 	}
 }
 
-function string_to_enum(str) { //turning csv versions of the move to the enum version to make them more readable
-	switch (str) {
-			case "???":				return loc.nowhere;			break;
-			case "Your Bedroom":	return loc.bedroom;			break;
-			case "Kat's Room":		return loc.kat_room;		break;
-			case "Julie's Room":	return loc.julie_room;		break;
-			case "Guest Room":		return loc.guest_room;		break;
-			case "Lounge Room":		return loc.lounge_room;		break;
-			case "Kitchen":			return loc.kitchen;			break;
-			case "Bathroom":		return loc.bathroom;		break;
-			case "Frount Yard":		return loc.front_yard;		break;
-			case "Back Yard":		return loc.back_yard;		break;
-			case "Car Spot":		return loc.car_spot;		break;
-			case "Barry's House":	return loc.barry_house_out;	break;
-			case "Barry's Inside":	return loc.barry_house_in;	break;
-			case "Debug's House":	return loc.debug_house_out;	break;
-			case "Debug's Inside":	return loc.debug_house_in;	break;
-	}
+function string_to_enum(str, type) { //turning csv versions of the move to the enum version to make them more readable
+	if type == "Location" || type == "location" || type == "LOCATION"
+		switch (str) {
+				case "???":				return loc.nowhere;			break;
+				case "Your Bedroom":	return loc.bedroom;			break;
+				case "Kat's Room":		return loc.kat_room;		break;
+				case "Julie's Room":	return loc.julie_room;		break;
+				case "Guest Room":		return loc.guest_room;		break;
+				case "Lounge Room":		return loc.lounge_room;		break;
+				case "Kitchen":			return loc.kitchen;			break;
+				case "Bathroom":		return loc.bathroom;		break;
+				case "Frount Yard":		return loc.front_yard;		break;
+				case "Back Yard":		return loc.back_yard;		break;
+				case "Car Spot":		return loc.car_spot;		break;
+				case "Barry's House":	return loc.barry_house_out;	break;
+				case "Barry's Inside":	return loc.barry_house_in;	break;
+				case "Debug's House":	return loc.debug_house_out;	break;
+				case "Debug's Inside":	return loc.debug_house_in;	break;
+		}
+		
+	if type == "Storybeat" || type == "storybeat" || type == "STORYBEAT"
+		switch (str) {
+			case "Julie Main":			return storybeat.julie_main;	break;
+			case "Debug_main":			return storybeat.debug_main;	break;
+			case "Barry_main":			return storybeat.barry_main;	break;
+			case "Kat_main":			return storybeat.kat_main;		break;
+			case "ariadne_main":		return storybeat.ariadne_main;	break;
+		}
+}
+
+enum storybeat {
+	julie_main,
+	debug_main,
+	barry_main,
+	kat_main,
+	ariadne_main
 }

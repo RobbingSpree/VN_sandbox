@@ -43,7 +43,7 @@ function csv_to_dialog(_filename){
 		if (tabel[# 14, i]) != ""
 			l.bg_change				 = tabel[# 14, i];
 		if (tabel[# 15, i]) != ""
-			l.move_to				 = string_to_enum(tabel[# 15, i]);
+			l.move_to				 = string_to_enum(tabel[# 15, i],"location");
 		if (tabel[# 16, i]) != ""
 			l.notes					 = tabel[# 16, i];
 		

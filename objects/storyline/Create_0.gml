@@ -19,9 +19,9 @@ current_line = 1;
 //import script into game
 csv_to_dialog("VN_Script.csv");
 
-quest_flags = [];//flags for multi step actions required to unlock the next scene
-for (var i=0; i<=actor.ariadne; i++) {
-	quest_flags[i] = 0;
+threads = [];//flags for what part player is up to on all the different plot threads and stroybeats
+for (var i=0; i<=storybeat.ariadne_main; i++) { //replace the 
+	threads[i] = 0;
 }
 time_o_day = time.morning;
 
