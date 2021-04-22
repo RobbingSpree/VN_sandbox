@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if focus {
+if focus && parent.focus {
 	pre_str += keyboard_string;
 
 	if ldelay > 0

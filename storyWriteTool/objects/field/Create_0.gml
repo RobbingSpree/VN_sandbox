@@ -8,6 +8,7 @@ ldelay = delay;
 rdelay = delay;
 
 focus = true;
+parent = noone;
 
 c_spd = 30;
 alarm[0] = c_spd;
