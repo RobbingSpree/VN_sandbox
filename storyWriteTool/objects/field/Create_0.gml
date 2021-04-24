@@ -22,3 +22,8 @@ fx1 = x;
 fy1 = y;
 fx2 = x + max_wid;
 fy2 = y + 128;
+
+cursor_mouse_x = 0;
+cursor_mouse_y = 0;
+
+char_wid = string_width("A");

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"window","path":"objects/window/window.yy",},"order":1,},
     {"id":{"name":"pslice_window","path":"sprites/pslice_window/pslice_window.yy",},"order":0,},
+    {"id":{"name":"mouse_logic","path":"scripts/mouse_logic/mouse_logic.yy",},"order":0,},
     {"id":{"name":"field","path":"objects/field/field.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -50,7 +51,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.2.556",
   },
   "resourceVersion": "1.4",
   "name": "storyWriteTool",
