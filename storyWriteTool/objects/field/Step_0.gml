@@ -43,7 +43,8 @@ if mouse_over(fx1,fy1,fx2,fy2) {
 	if mouse_check_button_released(mb_left) {
 		pre_str += post_str;
 		post_str = "";
-		post_str = string_copy(pre_str,col,string_length(pre_str)-col);
-		pre_str = string_delete(pre_str,col,string_length(pre_str)-col-1);
+		var len = string_length(pre_str)-col+1
+		post_str = string_copy(pre_str,col,len);
+		pre_str = string_delete(pre_str,col,len);
 	}
 }
