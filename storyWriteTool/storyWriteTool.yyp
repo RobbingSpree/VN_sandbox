@@ -4,6 +4,7 @@
     {"id":{"name":"pslice_window","path":"sprites/pslice_window/pslice_window.yy",},"order":0,},
     {"id":{"name":"mouse_logic","path":"scripts/mouse_logic/mouse_logic.yy",},"order":0,},
     {"id":{"name":"field","path":"objects/field/field.yy",},"order":0,},
+    {"id":{"name":"bg_tile","path":"sprites/bg_tile/bg_tile.yy",},"order":1,},
     {"id":{"name":"mouse_watcher","path":"objects/mouse_watcher/mouse_watcher.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

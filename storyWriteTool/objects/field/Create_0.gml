@@ -17,6 +17,8 @@ str_wid = 0;
 str_hei = 0;
 max_wid = 256
 line_hei = 20;
+lines = 0;
+line_breaks = [];
 
 fx1 = x;
 fy1 = y;
@@ -27,3 +29,4 @@ cursor_mouse_x = 0;
 cursor_mouse_y = 0;
 
 char_wid = string_width("A");
+char_hei = string_height("A");

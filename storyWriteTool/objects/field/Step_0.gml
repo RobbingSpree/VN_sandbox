@@ -33,6 +33,23 @@ if focus && parent.focus {
 	var combined = pre_str + cursor + post_str;
 	str_wid = string_width(combined);
 	str_hei = string_height_ext(combined,line_hei,max_wid);
+	
+	//update where line breaks are
+	lines = str_hei mod line_hei;
+	if lines > 1 {
+		var s = "";
+		var i = 0;
+		var b = 0;
+		while string_height_ext(s,line_hei,max_wid) < char_hei {
+			var sc = s;
+			s += string_char_at(combined,i);
+			i++
+			if string_height_ext(s,line_hei,max_wid) > string_height_ext(sc,line_hei,max_wid) {
+				line_breaks[b]= i;
+				b++
+			}
+		}
+	}
 
 	keyboard_string = "";
 }
@@ -40,6 +57,7 @@ if focus && parent.focus {
 if mouse_over(fx1,fy1,fx2,fy2) {
 	var line = round((mouse_y - y)/20);
 	var col = round((mouse_x - x)/char_wid);
+	//move cursor on click
 	if mouse_check_button_released(mb_left) {
 		pre_str += post_str;
 		post_str = "";
