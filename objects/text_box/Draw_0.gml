@@ -9,7 +9,7 @@ if talking < actor.no_one
 
 //draw textbox
 
-nine_slice_draw(txt_box_spr,x1,y1,x2,y2);
+nine_slice_draw(txt_box_spr5,x1,y1,x2,y2);
 draw_set_color(c_black);
 draw_set_halign(fa_left);
 
