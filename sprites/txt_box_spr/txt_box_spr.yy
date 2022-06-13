@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"txt_box_spr","path":"sprites/txt_box_spr/txt_box_spr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "txt_box_spr",
     "tags": [],
     "resourceType": "GMSequence",
